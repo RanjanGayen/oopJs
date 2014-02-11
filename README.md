@@ -1,4 +1,4 @@
 oopJs
 =====
 
-object oriented javascript practice
+This is an object oriented javascript practice.
