@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>oop</title>
+<script src="car.js"></script>
+<script>
+var myObject = {
+	myString: 'string',
+	myNumber: 10,
+	myBoolean: false,
+	myNull: null,
+	myUndefined: undefined
+};
+
+console.log(myObject);
+
+window.onload = function(){
+	var car = new Car("Ford", "Figo", "Green");
+	//document.write("I have " + car.color + " " + car.make + " " +car.model);
+	car.startEngine();
+	//document.write(car.mile);
+	//document.write(Car.wheelNum);
+	
+	/*var b = document.getElementById("msg");
+	var c = document.getElementsByClassName("msg");
+	b.innerHTML = "I have " + car.color + " " + car.make + " " +car.model;
+	c.innerHTML = "I have " + car.color + " " + car.make + " " +car.model;*/
+}
+</script>
+</head>
+
+<body>
+
+<div id="msg"></div>
+<div class="msg"></div>
+
+</body>
+</html>
